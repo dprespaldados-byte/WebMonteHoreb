@@ -1,0 +1,10 @@
+
+.btn:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-amber);
+  outline-offset: 3px;
+}
+
+input, textarea, select {
+  min-height: 48px;
+  border-radius: var(--radius-md);
+}
